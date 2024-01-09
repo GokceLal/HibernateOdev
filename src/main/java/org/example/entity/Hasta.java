@@ -1,6 +1,10 @@
 package org.example.entity;
 
+
+
 import jakarta.persistence.*;
+
+import java.util.ArrayList;
 
 import java.util.List;
 
@@ -20,5 +24,8 @@ public class Hasta {
 
 
     @OneToMany(mappedBy = "hasta")
-    List<Randevu> randevular;
+
+
+    List<Randevu> randevular=new ArrayList<>();
+
 }
