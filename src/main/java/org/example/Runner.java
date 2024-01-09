@@ -22,11 +22,11 @@ public class Runner {
 
 
             Brans brans1 = new Brans();
-            brans.setAdi("KBB");
+            brans1.setAdi("KBB");
             new BransRepository().save(brans1);
 
             Brans brans2= new Brans();
-            brans.setAdi("Dahiliye");
+            brans2.setAdi("Dahiliye");
             new BransRepository().save(brans2);
 
             // Doktorlar oluşturuluyor
